@@ -1,0 +1,26 @@
+<code>
+<pre>
+function bstcmfw_get_top_parent( object $current_post_object );
+// Returns post ID of the most top parent item
+</pre>
+<pre>
+function bstcmfw_load_template_part( string $template_name, string $part_name );
+// Returns contents of template part
+</pre>
+<pre>
+function bstcmfw_write_log( string|object|array $object );
+// Outputs content tot the log (file or display)
+</pre>
+<pre>
+function bstcmfw_load_svg( string $filename );
+// Returns raw SVG content from filename (using IMAGEFOLDER contant for path)
+</pre>
+<pre>
+data-type="accept"
+// Allows loading of accepted scripts
+</pre>
+<pre>
+data-type="decline"
+// Disallows loading of accepted scripts. Loads only necessary scripts.
+</pre>
+</code>

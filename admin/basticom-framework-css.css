@@ -1,0 +1,55 @@
+.bstcmfw-wrap {
+	position: relative;
+	float: left;
+	width: 100%;
+	max-width: 800px;
+}
+
+.bstcmfw-columns-1,
+.bstcmfw-columns-2,
+.bstcmfw-columns-3 {
+	position: relative;
+	float: left;
+	width: 100%;
+	vertical-align: top;
+}
+
+.bstcmfw-columns-1 label,
+.bstcmfw-columns-2 label,
+.bstcmfw-columns-3 label {
+	position: relative;
+	float: left;
+	margin: 0 0 7px 0;	
+}
+
+.bstcmfw-columns-3 label {
+	width: 33%;
+}
+
+.bstcmfw-columns-2 label {
+	width: 50%;
+}
+
+.bstcmfw-columns-1 label {
+	width: 100%;
+}
+
+.bstcmfw-column-label {
+	width: 30%;
+	position: relative;
+	float: left;
+	padding-top: 3px;
+}
+
+	.bstcmfw-column-label + input[type=text] {
+		width: 69%;
+		position: relative;
+		float: left;
+	}
+
+.bstcmfw-wrap code {
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 10px 20px;
+}

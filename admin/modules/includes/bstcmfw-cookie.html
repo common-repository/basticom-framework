@@ -1,0 +1,19 @@
+<span class="bstcmfw-cookie-wrapper bstcmfw-cookie-wrapper--{{bstcmfw_cookie_location_setting}}" style="background-color: rgba( {{bstcmfw_cookie_wrapper_color}}, 0.9); color: {{bstcmfw_cookie_text_font_color}};">
+
+	<span class="bstcmfw-cookie-inner">
+
+		<span class="bstcmfw-cookie-text" style="color: {{bstcmfw_cookie_text_font_color}};">{{bstcmfw_cookie_text}} <a style="color: {{bstcmfw_cookie_text_font_color}};" href="{{bstcmfw_cookie_read_more_link}}" target="_blank">{{bstcmfw_cookie_read_more_button_text}}</a> </span>
+
+		<span class="bstcmfw-cookie-button-wrapper">
+
+			<button class="bstcmfw-cookie-button bstcmfw-cookie-accept-button" style="background: {{bstcmfw_cookie_accept_button_color}}; color: {{bstcmfw_cookie_button_font_color}};" onclick="bstcmfw_set_cookie_consent( 'bstcmfw_cookie_accept', {{bstcmfw_cookie_exdays}}, 1 )" >{{bstcmfw_cookie_accept_button_text}}</button>
+
+			<button class="bstcmfw-cookie-button bstcmfw-cookie-decline-button" style="background: {{bstcmfw_cookie_decline_button_color}}; color: {{bstcmfw_cookie_button_font_color}};" onclick="bstcmfw_set_cookie_consent( 'bstcmfw_cookie_accept', {{bstcmfw_cookie_exdays}}, 0 )" >{{bstcmfw_cookie_decline_button_text}}</button>
+
+		</span>
+
+	</span>
+
+</span>
+
+<div class="bstcmfw-cookie-overlay"></div>

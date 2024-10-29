@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Basticom framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-23 12:25+0200\n"
+"PO-Revision-Date: 2018-07-05 16:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/modules/bstcmfw-comments.php:83 admin/modules/bstcmfw-comments.php:106
+msgid "Comments are closed."
+msgstr "Reageren is niet mogelijk."
+
+#: admin/modules/bstcmfw-comments.php:158
+#, php-format
+msgid "%1$s %2$s Feed"
+msgstr "%1$s %2$s Feed"
+
+#: admin/modules/bstcmfw-jigsaw-bootstrap.php:16
+msgid "Home"
+msgstr "Home"
+
+#: admin/modules/bstcmfw-serverstats.php:4
+msgid "Server IP & Memory Usage Display"
+msgstr "Server IP & geheugen gebruik weergave"
+
+#: admin/modules/bstcmfw-serverstats.php:4
+msgid ""
+"Show the memory limit, current memory usage and IP address in the admin "
+"footer."
+msgstr ""
+"Toon de geheugen limiet, het huidige geheugengebruik en het IP-adres in de "
+"admin footer."
+
+#: admin/modules/bstcmfw-serverstats.php:63
+msgid "N/A"
+msgstr "Niet beschikbaar"
+
+#: admin/modules/bstcmfw-serverstats.php:73
+msgid " "
+msgstr " "
+
+#: admin/modules/bstcmfw-serverstats.php:73
+msgid "of"
+msgstr "van"
+
+#: basticom-framework.php:143
+msgid " framework"
+msgstr " framework"
+
+#: basticom-framework.php:158
+msgid "framework"
+msgstr "framework"
+
+#: basticom-framework.php:161
+msgid "Introduction"
+msgstr "Introductie"
+
+#: basticom-framework.php:162
+msgid "The"
+msgstr "Met de"
+
+#: basticom-framework.php:162
+msgid ""
+"framework plugin allows you to modify certain core functions of Wordpress as "
+"well as finetune some additional settings. Furthermore, this framework "
+"provides a set of easy to use PHP functions (instructions) to use within "
+"your theme."
+msgstr ""
+"framework plug-in kunt u bepaalde kernfuncties van Wordpress wijzigen en "
+"enkele aanvullende instellingen verfijnen. Bovendien biedt dit framework een "
+"reeks eenvoudig te gebruiken PHP-functies (instructies) om te gebruiken "
+"binnen uw thema."
+
+#: basticom-framework.php:165
+msgid "Framework settings"
+msgstr "Framework instellingen"
+
+#: basticom-framework.php:174
+msgid "Services"
+msgstr "Diensten"
+
+#: basticom-framework.php:178
+msgid "Disable XMLRPC"
+msgstr "Deactiveer XMLRPC"
+
+#: basticom-framework.php:182
+msgid "Disable pingbacks"
+msgstr "Deactiveer pingbacks"
+
+#: basticom-framework.php:186
+msgid "Disable atom"
+msgstr "Deactiveer atom"
+
+#: basticom-framework.php:190
+msgid "Disable emoji's"
+msgstr "Deactiveer emoji’s"
+
+#: basticom-framework.php:194
+msgid "Disable manifest"
+msgstr "Deactiveer manifest"
+
+#: basticom-framework.php:198
+msgid "Disable comments"
+msgstr "Deactiveer reacties"
+
+#: basticom-framework.php:203
+msgid "Admin interface"
+msgstr "Administratie paneel"
+
+#: basticom-framework.php:207
+msgid "Disable widgets"
+msgstr "Deactiveer widgets"
+
+#: basticom-framework.php:211
+msgid "Disable tags"
+msgstr "Deactiveer tags"
+
+#: basticom-framework.php:215
+msgid "Disable links"
+msgstr "Deactiveer links"
+
+#: basticom-framework.php:219
+msgid "Disable posts"
+msgstr "Deactiveer berichten"
+
+#: basticom-framework.php:223
+msgid "Clean-up dashboard panels"
+msgstr "Opschonen dashboard panelen"
+
+#: basticom-framework.php:227
+msgid "Disable theme editor"
+msgstr "Deactiveer thema bewerker"
+
+#: basticom-framework.php:231
+msgid "Clean-up admin bar"
+msgstr "Opschonen admin bar"
+
+#: basticom-framework.php:235
+msgid "Disable update notifications"
+msgstr "Deactiveer update notificaties"
+
+#: basticom-framework.php:240
+msgid "Modifications"
+msgstr "Aanpassingen"
+
+#: basticom-framework.php:244
+msgid "Enable SVG uploads"
+msgstr "Activeer SVG uploads"
+
+#: basticom-framework.php:248
+msgid "Optimize WP_Query"
+msgstr "Optimaliseer WP_Query"
+
+#: basticom-framework.php:252
+msgid "Convert Gravity Forms buttons"
+msgstr "Converteer Gravity Forms knoppen"
+
+#: basticom-framework.php:256
+msgid "Convert Gravity Forms errors"
+msgstr "Converteer Gravity Forms fouten"
+
+#: basticom-framework.php:260
+msgid "Disable admin bar for users"
+msgstr "Deactiveer admin bar voor gebruikers"
+
+#: basticom-framework.php:264
+msgid "Add defer tag to scripts"
+msgstr "Voeg ‘defer’ tag toe aan scripts"
+
+#: basticom-framework.php:268
+msgid "Remove script version strings"
+msgstr "Verwijder script versie strings"
+
+#: basticom-framework.php:272
+msgid "Enable Jigsaw framework"
+msgstr "Activeer Jigsaw framework"
+
+#: basticom-framework.php:278
+msgid "Theme support"
+msgstr "Thema ondersteuning"
+
+#: basticom-framework.php:282
+msgid "Thumbnails support"
+msgstr "Thumbnail ondersteuning"
+
+#: basticom-framework.php:286
+msgid "Advanced image compression"
+msgstr "Geavanceerde afbeelding compresssie"
+
+#: basticom-framework.php:290
+msgid "WooCommerce support"
+msgstr "WooCommerce ondersteuning"
+
+#: basticom-framework.php:296
+msgid "Misc"
+msgstr "Misc"
+
+#: basticom-framework.php:299
+msgid "ACF Google maps API"
+msgstr "ACF Google maps API"
+
+#: basticom-framework.php:305
+msgid "Whitelabel name"
+msgstr "Whitelabel naam"
+
+#: basticom-framework.php:312 basticom-framework.php:389
+msgid "Footer"
+msgstr "Footer"
+
+#: basticom-framework.php:315
+msgid "Footer text"
+msgstr "Footer tekst"
+
+#: basticom-framework.php:320
+msgid "Show server stats"
+msgstr "Toon server statistieken"
+
+#: basticom-framework.php:326 basticom-framework.php:330
+msgid "GDPR Settings"
+msgstr "GDPR Instellingen"
+
+#: basticom-framework.php:334
+msgid "Enable cookie message"
+msgstr "Activeer cookie melding"
+
+#: basticom-framework.php:339
+msgid "Cookie text"
+msgstr "Cookie tekst"
+
+#: basticom-framework.php:343 basticom-framework.php:458
+msgid "Accept button text"
+msgstr "Accepteer knop tekst"
+
+#: basticom-framework.php:347
+msgid "Decline button text"
+msgstr "Weiger knop tekst"
+
+#: basticom-framework.php:351
+msgid "Read more button text"
+msgstr "Lees meer knop tekst"
+
+#: basticom-framework.php:355
+msgid "Cookie expire"
+msgstr "Cookie verlooptijd"
+
+#: basticom-framework.php:357
+msgid "1 day"
+msgstr "1 dag"
+
+#: basticom-framework.php:358
+msgid "1 week"
+msgstr "1 week"
+
+#: basticom-framework.php:359
+msgid "1 month"
+msgstr "1 maand"
+
+#: basticom-framework.php:360
+msgid "1 year"
+msgstr "1 jaar"
+
+#: basticom-framework.php:380
+msgid "Read more link"
+msgstr "Lees meer link"
+
+#: basticom-framework.php:385
+msgid "Cookie message location"
+msgstr "Cookie melding locatie"
+
+#: basticom-framework.php:387
+msgid "Header"
+msgstr "Header"
+
+#: basticom-framework.php:388
+msgid "Center"
+msgstr "Centreren"
+
+#: basticom-framework.php:394 basticom-framework.php:444
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: basticom-framework.php:399
+msgid "Accept button color"
+msgstr "Accepteer knop kleur"
+
+#: basticom-framework.php:404
+msgid "Decline button color"
+msgstr "Weiger knop kleur"
+
+#: basticom-framework.php:408 basticom-framework.php:449
+msgid "Text font color"
+msgstr "Tekst kleur"
+
+#: basticom-framework.php:413
+msgid "Button font color"
+msgstr "Knop tekst kleur"
+
+#: basticom-framework.php:417
+msgid "Header accept scripts"
+msgstr "Header accepteer scripts"
+
+#: basticom-framework.php:421
+msgid "Header decline scripts"
+msgstr "Header weiger scripts"
+
+#: basticom-framework.php:425
+msgid "Footer accept scripts"
+msgstr "Footer accepteer scripts"
+
+#: basticom-framework.php:429
+msgid "Footer decline scripts"
+msgstr "Footer weiger scripts"
+
+#: basticom-framework.php:437 basticom-framework.php:441
+msgid "Iframe settings"
+msgstr "Iframe instellingen"
+
+#: basticom-framework.php:454
+msgid "Iframe text"
+msgstr "Iframe tekst"
+
+#: basticom-framework.php:465
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: basticom-framework.php:469
+msgid "Hide IP on form submit"
+msgstr "Verberg IP bij versturen van het formulier"
+
+#: basticom-framework.php:473
+msgid "Hide IP on submit"
+msgstr "Verberg IP bij versturen"
+
+#: basticom-framework.php:479
+msgid "Remove entry from DB"
+msgstr "Verwijder item uit database"
+
+#: basticom-framework.php:508
+msgid "Framework PHP functions"
+msgstr "Framework PHP instellingen"
+
+#~ msgid "Wrapper color"
+#~ msgstr "Achtergrondkleur"
+
+#~ msgid "server-ip-memory-usage"
+#~ msgstr "Server IP geheugen gebruik"
+
+#~ msgid "van"
+#~ msgstr "van"

@@ -1,0 +1,123 @@
+#bstcmfw-cookie-collapse-div {
+	display: none;
+}
+
+.bstcmfw-cookie-wrapper {
+	left: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 2147483647;
+	padding: 20px 0;
+	border-radius: 2px;
+	display: none;
+}
+
+.bstcmfw-cookie-wrapper--embed {
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		display: block;
+		padding: 0;
+		display: block;
+}
+
+.bstcmfw-cookie-inner--embed {
+	position:absolute;
+	width:100%;
+	padding: 0;
+	top: 50%; left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif;
+}
+
+.bstcmfw-cookie-wrapper--header {
+	position: fixed;
+	top: 0;
+}
+
+.bstcmfw-cookie-wrapper--center {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+  transform: translate(-50%, -50%);
+	max-height: 100vh;
+	overflow: auto;
+}
+
+.bstcmfw-cookie-wrapper--footer {
+	position: fixed;
+	bottom: 0;
+}
+
+.bstcmfw-cookie-wrapper--center + .bstcmfw-cookie-overlay {
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 2147483646;
+	display: none;
+}
+
+.bstcmfw-cookie-wrapper.header .bstcmfw-cookie-text,
+.bstcmfw-cookie-wrapper.footer .bstcmfw-cookie-text,
+.bstcmfw-cookie-wrapper.header .bstcmfw-cookie-button-wrapper,
+.bstcmfw-cookie-wrapper.footer .bstcmfw-cookie-button-wrapper  {
+	display: inline-block;
+	margin: 0;
+}
+
+.bstcmfw-cookie-wrapper a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.bstcmfw-cookie-wrapper a:hover {
+	text-decoration: none;
+}
+
+.bstcmfw-cookie-text {
+	line-height: 1.5em;
+	display: block;
+	font-size: 15px;
+	padding: 5px 30px;
+	margin: 0 0 10px 0;
+	color: #ffffff;
+}
+
+.bstcmfw-cookie-button {
+	cursor: pointer;
+	font-size: 15px;
+	padding: 10px;
+	margin: 5px;
+	font-weight: normal;
+	border-radius: 2px;
+	color: #ffffff;
+	border: 0;
+}
+
+.bstcmfw-cookie-decline-button {
+	background: transparent;
+}
+
+.bstcmfw-cookie-decline-button:hover {
+	background: transparent;
+}
+
+.bstcmfw-cookie-decline-button[style^="background: ;"] { background-color: transparent; text-decoration: underline; }
+.bstcmfw-cookie-decline-button[style^="background: ;"]:hover { text-decoration: none; }
+
+
+@media only screen and (max-width : 1200px) {
+	.bstcmfw-cookie-wrapper--center {
+		width: 80%;
+		max-height: 90vh;
+	}
+
+	.bstcmfw-cookie-wrapper--header .bstcmfw-cookie-text,
+	.bstcmfw-cookie-wrapper--footer .bstcmfw-cookie-text,
+	.bstcmfw-cookie-wrapper--header .bstcmfw-cookie-button-wrapper,
+	.bstcmfw-cookie-wrapper--footer .bstcmfw-cookie-button-wrapper {
+		display: block;
+	}
+}
