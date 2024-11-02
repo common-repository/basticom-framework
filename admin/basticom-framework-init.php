@@ -65,10 +65,6 @@ if ( 1 == get_option( 'bstcmfw-updatenotifications', false, 0 ) ) {
 }
 
 // Modifications
-if ( 1 == get_option( 'bstcmfw-svguploads', false, 0 ) ) {
-	require( plugin_dir_path(__FILE__).'/modules/bstcmfw-svguploads.php' );
-}
-
 if ( 1 == get_option( 'bstcmfw-optimizequery', false, 0 ) ) {
 	require( plugin_dir_path(__FILE__).'/modules/bstcmfw-optimizequery.php' );
 }

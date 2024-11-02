@@ -85,7 +85,6 @@ function bstcmfw_admin_init(){
     register_setting( 'bstcmfw-settings', 'bstcmfw-themeeditor' );
     register_setting( 'bstcmfw-settings', 'bstcmfw-cleanadminbar' );
     register_setting( 'bstcmfw-settings', 'bstcmfw-updatenotifications' );
-    register_setting( 'bstcmfw-settings', 'bstcmfw-svguploads' );
     register_setting( 'bstcmfw-settings', 'bstcmfw-optimizequery' );
     register_setting( 'bstcmfw-settings', 'bstcmfw-gfbuttons' );
     register_setting( 'bstcmfw-settings', 'bstcmfw-gferrors' );
@@ -252,10 +251,6 @@ function bstcmfw_page() {
 			    <tr valign="top">
 				    <th scope="row"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i> <?php _e( 'Modifications', 'basticom-framework' ); ?></th>
 				    <td class="bstcmfw-columns-2">
-					    <label for="bstcmfw-svguploads">
-						    <input type="checkbox" value="1" name="bstcmfw-svguploads" id="bstcmfw-svguploads" <?php if ( 1 == get_option( 'bstcmfw-svguploads', false, 0 ) ) { ?>checked="checked"<?php } ?> />
-								<?php _e( 'Enable SVG uploads', 'basticom-framework' ); ?>
-							</label>
 					    <label for="bstcmfw-optimizequery">
 						    <input type="checkbox" value="1" name="bstcmfw-optimizequery" id="bstcmfw-optimizequery" <?php if ( 1 == get_option( 'bstcmfw-optimizequery', false, 0 ) ) { ?>checked="checked"<?php } ?> />
 								<?php _e( 'Optimize WP_Query', 'basticom-framework' ); ?>

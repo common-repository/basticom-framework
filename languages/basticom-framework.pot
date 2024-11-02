@@ -141,10 +141,6 @@ msgstr ""
 msgid "Modifications"
 msgstr ""
 
-#: basticom-framework.php:244
-msgid "Enable SVG uploads"
-msgstr ""
-
 #: basticom-framework.php:248
 msgid "Optimize WP_Query"
 msgstr ""

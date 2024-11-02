@@ -153,10 +153,6 @@ msgstr "Deactiveer update notificaties"
 msgid "Modifications"
 msgstr "Aanpassingen"
 
-#: basticom-framework.php:244
-msgid "Enable SVG uploads"
-msgstr "Activeer SVG uploads"
-
 #: basticom-framework.php:248
 msgid "Optimize WP_Query"
 msgstr "Optimaliseer WP_Query"

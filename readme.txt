@@ -1,12 +1,12 @@
-=== Plugin Name ===
+=== Basticom Framework ===
 Contributors: basticom
-Donate link: http://www.basticom.nl/
 Tags: framework, acf, admin, optimize
-Requires at least: 4.2.0
-Tested up to: 4.9.6
+Requires at least: 5.2
+Tested up to: 6.6.2
+Requires PHP: 7.2
 Stable tag: trunk
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 The Basticom framework plugin allows you to modify certain core functions of Wordpress as well as fine-tune some additional settings.
 
